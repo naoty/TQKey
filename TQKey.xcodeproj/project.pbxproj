@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D1DF640190AABEA00B02C70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D1DF63F190AABEA00B02C70 /* Foundation.framework */; };
+		3D1DF642190AABEA00B02C70 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D1DF641190AABEA00B02C70 /* CoreGraphics.framework */; };
+		3D1DF644190AABEA00B02C70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D1DF643190AABEA00B02C70 /* UIKit.framework */; };
+		3D1DF658190AABEA00B02C70 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D1DF657190AABEA00B02C70 /* Images.xcassets */; };
+		3D1DF65F190AABEA00B02C70 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D1DF65E190AABEA00B02C70 /* XCTest.framework */; };
+		3D1DF660190AABEA00B02C70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D1DF63F190AABEA00B02C70 /* Foundation.framework */; };
+		3D1DF661190AABEA00B02C70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D1DF643190AABEA00B02C70 /* UIKit.framework */; };
+		3D1DF669190AABEA00B02C70 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D1DF667190AABEA00B02C70 /* InfoPlist.strings */; };
+		3D1DF66B190AABEA00B02C70 /* TQKeyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1DF66A190AABEA00B02C70 /* TQKeyTests.m */; };
+		3D562065190AB2A300A84725 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D562057190AB2A300A84725 /* main.m */; };
+		3D562068190AB2A300A84725 /* TQKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D56205D190AB2A300A84725 /* TQKAppDelegate.m */; };
+		3D562069190AB2A300A84725 /* TQKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D56205F190AB2A300A84725 /* TQKViewController.m */; };
+		3D56206B190AB2A300A84725 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D562062190AB2A300A84725 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D1DF662190AABEA00B02C70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D1DF634190AABEA00B02C70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D1DF63B190AABEA00B02C70;
+			remoteInfo = TQKey;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D1DF63C190AABEA00B02C70 /* TQKey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TQKey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D1DF63F190AABEA00B02C70 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3D1DF641190AABEA00B02C70 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3D1DF643190AABEA00B02C70 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3D1DF657190AABEA00B02C70 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3D1DF65D190AABEA00B02C70 /* TQKeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TQKeyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D1DF65E190AABEA00B02C70 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3D1DF666190AABEA00B02C70 /* TQKeyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TQKeyTests-Info.plist"; sourceTree = "<group>"; };
+		3D1DF668190AABEA00B02C70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D1DF66A190AABEA00B02C70 /* TQKeyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TQKeyTests.m; sourceTree = "<group>"; };
+		3D562054190AB2A300A84725 /* .keep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .keep; sourceTree = "<group>"; };
+		3D562056190AB2A300A84725 /* .keep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .keep; sourceTree = "<group>"; };
+		3D562057190AB2A300A84725 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D562058190AB2A300A84725 /* TQKey-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TQKey-Info.plist"; sourceTree = "<group>"; };
+		3D562059190AB2A300A84725 /* TQKey-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TQKey-Prefix.pch"; sourceTree = "<group>"; };
+		3D56205B190AB2A300A84725 /* .keep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .keep; sourceTree = "<group>"; };
+		3D56205C190AB2A300A84725 /* TQKAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQKAppDelegate.h; sourceTree = "<group>"; };
+		3D56205D190AB2A300A84725 /* TQKAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQKAppDelegate.m; sourceTree = "<group>"; };
+		3D56205E190AB2A300A84725 /* TQKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQKViewController.h; sourceTree = "<group>"; };
+		3D56205F190AB2A300A84725 /* TQKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQKViewController.m; sourceTree = "<group>"; };
+		3D562061190AB2A300A84725 /* .keep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .keep; sourceTree = "<group>"; };
+		3D562062190AB2A300A84725 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D1DF639190AABEA00B02C70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1DF642190AABEA00B02C70 /* CoreGraphics.framework in Frameworks */,
+				3D1DF644190AABEA00B02C70 /* UIKit.framework in Frameworks */,
+				3D1DF640190AABEA00B02C70 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D1DF65A190AABEA00B02C70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1DF65F190AABEA00B02C70 /* XCTest.framework in Frameworks */,
+				3D1DF661190AABEA00B02C70 /* UIKit.framework in Frameworks */,
+				3D1DF660190AABEA00B02C70 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D1DF633190AABEA00B02C70 = {
+			isa = PBXGroup;
+			children = (
+				3D1DF645190AABEA00B02C70 /* TQKey */,
+				3D1DF664190AABEA00B02C70 /* TQKeyTests */,
+				3D1DF63E190AABEA00B02C70 /* Frameworks */,
+				3D1DF63D190AABEA00B02C70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D1DF63D190AABEA00B02C70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D1DF63C190AABEA00B02C70 /* TQKey.app */,
+				3D1DF65D190AABEA00B02C70 /* TQKeyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D1DF63E190AABEA00B02C70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D1DF63F190AABEA00B02C70 /* Foundation.framework */,
+				3D1DF641190AABEA00B02C70 /* CoreGraphics.framework */,
+				3D1DF643190AABEA00B02C70 /* UIKit.framework */,
+				3D1DF65E190AABEA00B02C70 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D1DF645190AABEA00B02C70 /* TQKey */ = {
+			isa = PBXGroup;
+			children = (
+				3D562053190AB2A300A84725 /* Models */,
+				3D562055190AB2A300A84725 /* SupportingFiles */,
+				3D56205A190AB2A300A84725 /* ViewControllers */,
+				3D562060190AB2A300A84725 /* Views */,
+				3D1DF657190AABEA00B02C70 /* Images.xcassets */,
+			);
+			path = TQKey;
+			sourceTree = "<group>";
+		};
+		3D1DF664190AABEA00B02C70 /* TQKeyTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D1DF66A190AABEA00B02C70 /* TQKeyTests.m */,
+				3D1DF665190AABEA00B02C70 /* Supporting Files */,
+			);
+			path = TQKeyTests;
+			sourceTree = "<group>";
+		};
+		3D1DF665190AABEA00B02C70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D1DF666190AABEA00B02C70 /* TQKeyTests-Info.plist */,
+				3D1DF667190AABEA00B02C70 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D562053190AB2A300A84725 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3D562054190AB2A300A84725 /* .keep */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3D562055190AB2A300A84725 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3D562056190AB2A300A84725 /* .keep */,
+				3D562057190AB2A300A84725 /* main.m */,
+				3D562058190AB2A300A84725 /* TQKey-Info.plist */,
+				3D562059190AB2A300A84725 /* TQKey-Prefix.pch */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		3D56205A190AB2A300A84725 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3D56205B190AB2A300A84725 /* .keep */,
+				3D56205C190AB2A300A84725 /* TQKAppDelegate.h */,
+				3D56205D190AB2A300A84725 /* TQKAppDelegate.m */,
+				3D56205E190AB2A300A84725 /* TQKViewController.h */,
+				3D56205F190AB2A300A84725 /* TQKViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3D562060190AB2A300A84725 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D562061190AB2A300A84725 /* .keep */,
+				3D562062190AB2A300A84725 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D1DF63B190AABEA00B02C70 /* TQKey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D1DF66E190AABEA00B02C70 /* Build configuration list for PBXNativeTarget "TQKey" */;
+			buildPhases = (
+				3D1DF638190AABEA00B02C70 /* Sources */,
+				3D1DF639190AABEA00B02C70 /* Frameworks */,
+				3D1DF63A190AABEA00B02C70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TQKey;
+			productName = TQKey;
+			productReference = 3D1DF63C190AABEA00B02C70 /* TQKey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D1DF65C190AABEA00B02C70 /* TQKeyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D1DF671190AABEA00B02C70 /* Build configuration list for PBXNativeTarget "TQKeyTests" */;
+			buildPhases = (
+				3D1DF659190AABEA00B02C70 /* Sources */,
+				3D1DF65A190AABEA00B02C70 /* Frameworks */,
+				3D1DF65B190AABEA00B02C70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D1DF663190AABEA00B02C70 /* PBXTargetDependency */,
+			);
+			name = TQKeyTests;
+			productName = TQKeyTests;
+			productReference = 3D1DF65D190AABEA00B02C70 /* TQKeyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D1DF634190AABEA00B02C70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TQK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Naoto Kaneko";
+				TargetAttributes = {
+					3D1DF65C190AABEA00B02C70 = {
+						TestTargetID = 3D1DF63B190AABEA00B02C70;
+					};
+				};
+			};
+			buildConfigurationList = 3D1DF637190AABEA00B02C70 /* Build configuration list for PBXProject "TQKey" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D1DF633190AABEA00B02C70;
+			productRefGroup = 3D1DF63D190AABEA00B02C70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D1DF63B190AABEA00B02C70 /* TQKey */,
+				3D1DF65C190AABEA00B02C70 /* TQKeyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D1DF63A190AABEA00B02C70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D56206B190AB2A300A84725 /* Main.storyboard in Resources */,
+				3D1DF658190AABEA00B02C70 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D1DF65B190AABEA00B02C70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1DF669190AABEA00B02C70 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D1DF638190AABEA00B02C70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D562065190AB2A300A84725 /* main.m in Sources */,
+				3D562068190AB2A300A84725 /* TQKAppDelegate.m in Sources */,
+				3D562069190AB2A300A84725 /* TQKViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D1DF659190AABEA00B02C70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1DF66B190AABEA00B02C70 /* TQKeyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D1DF663190AABEA00B02C70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D1DF63B190AABEA00B02C70 /* TQKey */;
+			targetProxy = 3D1DF662190AABEA00B02C70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D1DF667190AABEA00B02C70 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D1DF668190AABEA00B02C70 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D1DF66C190AABEA00B02C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D1DF66D190AABEA00B02C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D1DF66F190AABEA00B02C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TQKey/SupportingFiles/TQKey-Prefix.pch";
+				INFOPLIST_FILE = "TQKey/SupportingFiles/TQKey-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3D1DF670190AABEA00B02C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TQKey/SupportingFiles/TQKey-Prefix.pch";
+				INFOPLIST_FILE = "TQKey/SupportingFiles/TQKey-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3D1DF672190AABEA00B02C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TQKey.app/TQKey";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TQKey/TQKey-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TQKeyTests/TQKeyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3D1DF673190AABEA00B02C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TQKey.app/TQKey";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TQKey/TQKey-Prefix.pch";
+				INFOPLIST_FILE = "TQKeyTests/TQKeyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D1DF637190AABEA00B02C70 /* Build configuration list for PBXProject "TQKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D1DF66C190AABEA00B02C70 /* Debug */,
+				3D1DF66D190AABEA00B02C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D1DF66E190AABEA00B02C70 /* Build configuration list for PBXNativeTarget "TQKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D1DF66F190AABEA00B02C70 /* Debug */,
+				3D1DF670190AABEA00B02C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D1DF671190AABEA00B02C70 /* Build configuration list for PBXNativeTarget "TQKeyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D1DF672190AABEA00B02C70 /* Debug */,
+				3D1DF673190AABEA00B02C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D1DF634190AABEA00B02C70 /* Project object */;
+}
