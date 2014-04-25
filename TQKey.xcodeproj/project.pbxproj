@@ -115,9 +115,9 @@
 			isa = PBXGroup;
 			children = (
 				3D562053190AB2A300A84725 /* Models */,
-				3D562055190AB2A300A84725 /* SupportingFiles */,
-				3D56205A190AB2A300A84725 /* ViewControllers */,
 				3D562060190AB2A300A84725 /* Views */,
+				3D56205A190AB2A300A84725 /* ViewControllers */,
+				3D562055190AB2A300A84725 /* SupportingFiles */,
 				3D1DF657190AABEA00B02C70 /* Images.xcassets */,
 			);
 			path = TQKey;
